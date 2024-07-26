@@ -1,2 +1,2 @@
 
-Copyright (C) 2024 Matt Brock
+Copyright © 2024 CronoGames. All rights reserved.

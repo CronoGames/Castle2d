@@ -1,7 +1,7 @@
 #ifndef CROMATH_H
 #define CROMATH_H
 /*
- * © 2024 CronoGames. All rights reserved.
+ * Copyright © 2024 CronoGames. All rights reserved.
  */
 #include <math.h>
 

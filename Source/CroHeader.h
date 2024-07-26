@@ -1,7 +1,7 @@
 #ifndef CROHEADER_H
 #define CROHEADER_H
 /*
- * © 2024 CronoGames. All rights reserved.
+ * Copyright © 2024 CronoGames. All rights reserved.
  * Basic header files i use in most files
  */
 

@@ -1,7 +1,7 @@
 #ifndef CROTYPES_H
 #define CROTYPES_H
 /*
- * © 2024 CronoGames. All rights reserved.
+ * Copyright © 2024 CronoGames. All rights reserved.
  */
 
 #include <stdint.h>
