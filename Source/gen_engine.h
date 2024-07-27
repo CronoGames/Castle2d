@@ -5,8 +5,9 @@
  */
 
 #include "gen_build.h"
+#include "CroHeader.h"
 
-class gen_engine
+class CRO_API gen_engine
 {
 private:
     /* data */

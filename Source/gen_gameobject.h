@@ -7,13 +7,15 @@
 
 #include "gen_object.h"
 
-class gen_gameobject : gen_object
+class CRO_API gen_gameobject : gen_object
 {
 private:
     /* data */
 public:
     gen_gameobject(/* args */);
     ~gen_gameobject();
+    virtual void Start() override {}
+    virtual void Tick(float deltaTime) override {}
 };
 
 #endif

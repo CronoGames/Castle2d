@@ -9,4 +9,10 @@
 #include "CroMath.h"
 #include "CroTimer.h"
 
+#if CRO_DLL
+    #define CRO_API __declspec(dllexport)
+#else
+    #define CRO_API __declspec(dllimport)
+#endif
+
 #endif
