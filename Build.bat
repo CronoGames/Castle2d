@@ -15,7 +15,7 @@ REM Optimization switches /wO2
 echo WAITING FOR PDB > lock.tmp
 
 REM Game
-REM cl %CommonCompilerFlags% -MTd -I..\iaca-win64\ ..\handmade\code\handmade.cpp ..\handmade\code\handmade_msvc.c -Fmhandmade.map -LD /link -incremental:no -opt:ref -PDB:handmade_%random%.pdb -EXPORT:GameGetSoundSamples -EXPORT:GameUpdateAndRender -EXPORT:DEBUGGameFrameEnd
+cl %CommonCompilerFlags% -MTd -I..\iaca-win64\ ..\Source\gen_engine.cpp ..\Source\castle_msvc.c -Fmgen_engine.map -LD /link -incremental:no -opt:ref -PDB:handmade_%random%.pdb
 set LastError=%ERRORLEVEL%
 del lock.tmp
 cl %CommonCompilerFlags% ..\Source\win32_castle2d.cpp ..\Source\castle_msvc.c -Fmwin32_castle.map /link /SUBSYSTEM:windows %CommonLinkerFlags%
