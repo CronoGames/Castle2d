@@ -1,6 +1,6 @@
 @echo off
 
-set CommonCompilerFlags=-diagnostics:column -WL -O2 -nologo -fp:fast -fp:except- -Gm- -GR- -EHa- -Zo -Oi -WX -W4 -wd4201 -wd4100 -wd4189 -wd4505 -wd4127 -FC -Z7 -GS- -Gs9999999
+set CommonCompilerFlags=-diagnostics:column -EHscC -std:c++latest -WL -O2 -nologo -fp:fast -fp:except- -Gm- -GR- -EHa- -Zo -Oi -WX -W4 -wd4201 -wd4100 -wd4189 -wd4505 -wd4127 -FC -Z7 -GS- -Gs9999999
 set CommonCompilerFlags=-DCASTLE_INTERNAL=1 -DCASTLE_SLOW=1 -DCASTLE_WIN32=1 %CommonCompilerFlags%
 set CommonLinkerFlags=-STACK:0x100000,0x100000 -incremental:no -opt:ref user32.lib gdi32.lib winmm.lib bcrypt.lib kernel32.lib
 

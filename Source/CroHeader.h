@@ -7,5 +7,6 @@
 
 #include "CroTypes.h"
 #include "CroMath.h"
+#include "CroTimer.h"
 
 #endif
